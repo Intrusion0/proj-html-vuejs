@@ -48,6 +48,8 @@ export default {
 
 // text-color
 $text-color: #fff;
+$secondary-color-header: #3eaab9;
+$btn-color-header: #39afbb;
 
 // Header
 header {
@@ -86,10 +88,17 @@ header {
 
                     &:last-child {
                         padding: 10px 25px;
-                        background-color: #39afbb;
+                        background-color: $btn-color-header;
                         text-decoration: none;
                         color: $text-color;
                         border-radius: 2px;
+                    }
+
+                    &:first-child {
+                        
+                        a {
+                            color: $secondary-color-header;
+                        }
                     }
                 }
             }
@@ -110,7 +119,7 @@ header {
             margin-bottom: 15px;
 
             span {
-                color: #449ebf;
+                color: $secondary-color-header;
             }
         }
 
@@ -131,7 +140,7 @@ header {
 // button header
 .btn-header {
     padding: 10px 25px;
-    background-color: #39afbb;
+    background-color: $btn-color-header;
     text-decoration: none;
     color: $text-color;
     border-radius: 2px;
