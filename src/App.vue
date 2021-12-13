@@ -72,7 +72,7 @@ export default {
 
 // Container for centering
 .ms-container {
-  width: 48%;
+  width: 55%;
   margin: 0 auto;
 }
 

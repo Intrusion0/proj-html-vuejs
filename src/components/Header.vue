@@ -56,6 +56,8 @@ header {
     width: 100%;
     min-height: 860px;
     background-image: url('../assets/img/header-image-homepage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     div.container-logo-nav-header {
         display: flex;
@@ -95,7 +97,7 @@ header {
                     }
 
                     &:first-child {
-                        
+
                         a {
                             color: $secondary-color-header;
                         }
@@ -109,7 +111,7 @@ header {
         display: flex;
         flex-direction: column;
         width: 70%;
-        margin: 175px 0;
+        margin: 160px 0;
 
         h1 {
             font-family: 'Source Sans 3', sans-serif;

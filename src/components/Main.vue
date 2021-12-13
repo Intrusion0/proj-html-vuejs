@@ -1,12 +1,18 @@
 <template>
-    <main>
-        <span>MAIN</span>
+    <main class="ms-container">
+        <!-- Componente Avada-Health -->
+        <AvadaHealth />
     </main>
 </template>
 
 <script>
+import AvadaHealth from './AvadaHealth.vue';
+
 export default {
     name: "Main",
+    components: {
+        AvadaHealth
+    }
 };
 </script>
 
@@ -14,10 +20,7 @@ export default {
 
 // Main
 main {
-    width: 100%;
-    // debug
-    height: 500px;
-    background-color: darkviolet;
+    height: auto;
 }
 
 </style>
