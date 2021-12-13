@@ -22,6 +22,7 @@ $background-color-copyright: #f1efef;
 
 // Container copyright
 .container-copyright {
+    width: 100%;
     background-color: $background-color-copyright;
     position: relative;
     display: flex;
@@ -30,6 +31,7 @@ $background-color-copyright: #f1efef;
     padding: 25px 50px;
     color: #707070;
     font-size: 13px;
+    margin-top: 100px;
 
     div {
 

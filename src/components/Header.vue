@@ -7,7 +7,7 @@
             <nav>
                 <ul>
                     <li v-for="detail, i in details" :key="i">
-                        <a href="#">
+                        <a :href="detail.link">
                             {{ detail.name.toUpperCase() }}
                         </a>
                     </li>

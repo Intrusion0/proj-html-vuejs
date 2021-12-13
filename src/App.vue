@@ -7,7 +7,11 @@
     <!-- Main -->
     <Main />
     <!-- Footer -->
-    <Footer />
+    <Footer
+    :socialIconDetails="socialsDetails"
+    :contactDetails="contactsDetails"
+    :departmentDetails="medicalDepartmentsDetails"
+    />
   </div>
 </template>
 
@@ -28,24 +32,74 @@ export default {
       headerDetails: [
         {
           name: 'Home',
-          link: ''
+          link: '#'
         },
         {
           name: 'About',
-          link: ''
+          link: '#'
         }, 
         {
           name: 'Departments',
-          link: ''
+          link: '#'
         },
         {
           name: 'Articles',
-          link: ''
+          link: '#'
         }, 
         {
           name: 'Make Appointment',
-          link: ''
+          link: '#'
         },
+      ],
+      socialsDetails: [
+        {
+          icon: 'facebook-f',
+          link: '#'
+        },
+        {
+          icon: 'twitter',
+          link: '#'
+        },
+        {
+          icon: 'youtube',
+          link: '#'
+        },
+        {
+          icon: 'instagram',
+          link: '#'
+        },
+      ],
+      contactsDetails: [
+        {
+          icon: 'map-marker-alt',
+          text: '121 King Street, London United Kingdom'
+        },
+        {
+          icon: 'phone',
+          text: '1.800.458.566'
+        }
+      ],
+      medicalDepartmentsDetails: [
+        {
+          name: 'Cardiology',
+          link: '#'
+        },
+        {
+          name: 'Pediactrics',
+          link: '#'
+        },
+        {
+          name: 'Diabetes Care',
+          link: '#'
+        },
+        {
+          name: 'Pre-natel Care',
+          link: '#'
+        },
+        {
+          name: 'Ultrasound Echocardiogram',
+          link: '#'
+        }
       ]
     }
   }
