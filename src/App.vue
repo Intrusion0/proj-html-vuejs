@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <!-- Header -->
-    <Header />
+    <Header 
+    :details="headerDetails"
+    />
     <!-- Main -->
     <Main />
     <!-- Footer -->
@@ -21,6 +23,32 @@ export default {
     Main,
     Footer
   },
+  data() {
+    return {
+      headerDetails: [
+        {
+          name: 'Home',
+          link: ''
+        },
+        {
+          name: 'About',
+          link: ''
+        }, 
+        {
+          name: 'Departments',
+          link: ''
+        },
+        {
+          name: 'Articles',
+          link: ''
+        }, 
+        {
+          name: 'Make Appointment',
+          link: ''
+        },
+      ]
+    }
+  }
 };
 </script>
 

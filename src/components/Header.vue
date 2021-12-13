@@ -6,32 +6,10 @@
             </div>
             <nav>
                 <ul>
-                    <li>
+                    <li v-for="detail, i in details" :key="i">
                         <a href="#">
-                            HOME
+                            {{ detail.name.toUpperCase() }}
                         </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            DEPARTMENTS
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            ARTICLES
-                        </a>
-                    </li>
-                    <li>
-                        <span>
-                            <a href="#" class="btn-header">
-                                MAKE APPOINTMENT
-                            </a>
-                        </span>
                     </li>
                 </ul>
             </nav>
@@ -60,6 +38,9 @@
 <script>
 export default {
     name: "Header",
+    props: {
+        details: Array
+    }
 };
 </script>
 
@@ -90,6 +71,7 @@ header {
 
             ul {
                 display: flex;
+                align-items: center;
                 list-style: none;
 
                 li {
@@ -100,6 +82,14 @@ header {
                     a {
                         text-decoration: none;
                         color: $text-color;
+                    }
+
+                    &:last-child {
+                        padding: 10px 25px;
+                        background-color: #39afbb;
+                        text-decoration: none;
+                        color: $text-color;
+                        border-radius: 2px;
                     }
                 }
             }
