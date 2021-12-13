@@ -1,12 +1,27 @@
 <template>
     <footer>
-        <span>Footer</span>
+        <section class="container-about-us">
+
+        </section>
+        <section class="container-medical-departments">
+
+        </section>
+        <section class="container-contact">
+
+        </section>
+        <!-- Componente Copyright -->
+        <Copyright />
     </footer>
 </template>
 
 <script>
+import Copyright from './Copyright.vue'
+
 export default {
     name: "Footer",
+    components: {
+        Copyright
+    }
 };
 </script>
 
@@ -15,9 +30,8 @@ export default {
 // Footer
 footer {
     width: 100%;
-    // debug
-    height: 250px;
-    background-color: lightblue;
+
+    
 }
 
 </style>

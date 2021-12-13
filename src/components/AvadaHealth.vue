@@ -58,7 +58,7 @@ $font-weight-general: 300;
 // section avada-health
 section#container-avada-health {
     width: 100%;
-    padding: 50px 0;
+    padding: 80px 0;
     text-align: center;
 
     h2 {

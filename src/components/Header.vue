@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header id="header">
         <div class="container-logo-nav-header">
             <div id="logo-health">
                 <img src="../assets/img/medical_logo_1x_light.png" alt="medical logo light">
@@ -79,7 +79,7 @@ header {
                 list-style: none;
 
                 li {
-                    margin: 0 16px;
+                    margin: 0 22px;
                     font-size: 15px;
 
 
