@@ -138,4 +138,19 @@ export default {
   border: 1px solid lightgray;
 }
 
+// Color of the button of the input box and color of the placeholder (Make-An-Appointment component) => ! important is required, as some bootstrap vue components are not editable even if you were to add a class. It should never be used, but it was strictly necessary this time.
+#datepicker-placeholder {
+  color: #c9c9c9;
+}
+
+.form-control {
+  color: #c9c9c9 !important;
+}
+
+#datepicker-placeholder__value_{
+  display: flex;
+  align-items: center;
+  color: #c9c9c9 !important;
+}
+
 </style>
