@@ -8,6 +8,8 @@
         <HealthServices />
         <!-- Componente Tour-Our-Facilities -->
         <TourOurFacilities />
+        <!-- Componente Our-Specialties -->
+        <OurSpecialties />
     </main>
 </template>
 
@@ -16,6 +18,7 @@ import AvadaHealth from './AvadaHealth.vue';
 import MeetOurDoctors from './MeetOurDoctors.vue';
 import HealthServices from './HealthServices.vue';
 import TourOurFacilities from './TourOurFacilities.vue';
+import OurSpecialties from './OurSpecialties.vue'
 
 export default {
     name: "Main",
@@ -23,7 +26,8 @@ export default {
         AvadaHealth,
         MeetOurDoctors,
         HealthServices,
-        TourOurFacilities
+        TourOurFacilities,
+        OurSpecialties
     }
 };
 </script>

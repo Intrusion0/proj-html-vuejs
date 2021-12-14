@@ -24,7 +24,7 @@ export default {
 
 <style scoped lang="scss">
 
-// section Meet Our Doctors
+// section Tour Our Facilities
 section#container-tour-our-facilities {
     width: 100%;
     text-align: center;
@@ -44,7 +44,7 @@ section#container-tour-our-facilities {
     p {
         width: 60%;
         color: #fff;
-        margin: 30px auto 40px;
+        margin: 30px auto;
         line-height: 35px;
         font-size: 16px;
     }

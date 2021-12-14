@@ -66,7 +66,7 @@ export default {
 
 <style scoped lang="scss">
 
-// section Meet Our Doctors
+// section Health Services
 section#container-health-service {
     width: 100%;
     text-align: center;
