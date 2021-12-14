@@ -1,5 +1,5 @@
 <template>
-    <section id="container-avada-health">
+    <section id="container-avada-health" class="ms-container">
         <h2>
             Welcome to Avada Health
         </h2>
@@ -57,7 +57,7 @@ $font-weight-general: 300;
 
 // section avada-health
 section#container-avada-health {
-    width: 100%;
+    width: 55%;
     padding: 80px 0;
     text-align: center;
 
