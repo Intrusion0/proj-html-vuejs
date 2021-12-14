@@ -131,4 +131,11 @@ export default {
   margin: 0 auto;
 }
 
+// Divider
+.divider {
+  width: 22%;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
 </style>

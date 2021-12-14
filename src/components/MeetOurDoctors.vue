@@ -5,7 +5,7 @@
             <h2>
                 MEET OUR DOCTORS
             </h2>
-            <div class="divider-doctors"></div>
+            <div class="divider"></div>
             <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
             </p>
@@ -115,12 +115,6 @@ section#container-meet-our-doctors {
         font-weight: 300;
         font-size: 30px;
         margin: 10px 0 25px;
-    }
-
-    div.divider-doctors {
-        width: 22%;
-        margin: 0 auto;
-        border: 1px solid lightgray;
     }
 
     p {

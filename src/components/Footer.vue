@@ -6,7 +6,7 @@
             <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolemue launti totam aperiam, eaque ipsa quae abillo. Invente veriatis et quasi architecto beatae luptatem accusantium, remaperiamsiat. Voluptatem accusest etsium doloremque ludaien. Lorem ipsum sits dolores ets unser.
             </p>
-            <span class="divider"></span>
+            <span class="divider-footer"></span>
             <span>
                 LEARN MORE ABOUT US
             </span>
@@ -106,7 +106,7 @@ footer {
             color: #686868;
         }
 
-        span.divider {
+        span.divider-footer {
             border: 1px solid #e0dede;
             margin-bottom: 10px;
         }

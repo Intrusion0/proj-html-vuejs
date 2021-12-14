@@ -2,20 +2,24 @@
     <main>
         <!-- Componente Avada-Health -->
         <AvadaHealth />
-        <!-- Componente  -->
+        <!-- Componente  Meet-Our-Doctors -->
         <MeetOurDoctors />
+        <!-- Componente Our-Health-Services -->
+        <HealthServices />
     </main>
 </template>
 
 <script>
 import AvadaHealth from './AvadaHealth.vue';
 import MeetOurDoctors from './MeetOurDoctors.vue';
+import HealthServices from './HealthServices.vue'
 
 export default {
     name: "Main",
     components: {
         AvadaHealth,
-        MeetOurDoctors
+        MeetOurDoctors,
+        HealthServices
     }
 };
 </script>
