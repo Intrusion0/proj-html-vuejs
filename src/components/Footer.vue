@@ -132,27 +132,47 @@ footer {
                         padding: 10px 11px;
                     }
 
+                    // Facebook Icon
                     &:nth-child(1) {
                         background-color: #3c5998;
 
                         a {
                             padding: 10px 14px;
                         }
+
+                        &:hover {
+                            background-color: #2b4170;
+                        }
                     }
 
+                    // Twitter Icon
                     &:nth-child(2) {
                         background-color: #54acee;
+
+                        &:hover {
+                            background-color: #438dc5;
+                        }
                     }
 
+                    // Yotube Icon
                     &:nth-child(3) {
                         background-color: #cd201f;
+
+                        &:hover {
+                            background-color: #a91b1a;
+                        }
                     }
 
+                    // Instagram Icon
                     &:nth-child(4) {
                         background-color: #3f729b;
 
                         a {
                             padding: 10px 12px;
+                        }
+
+                        &:hover {
+                            background-color: #2e5574;
                         }
                     }
                 }
@@ -214,6 +234,11 @@ footer {
                         border-radius: 50%;
                         margin-right: 10px;
                     }
+
+                &:hover span {
+                    background-color: #268c99;
+                }
+
                 }
             }
         }
@@ -230,6 +255,10 @@ footer {
                 border: 1px solid #000;
                 text-decoration: none;
                 color: #000;
+
+                &:hover {
+                    font-weight: 500;
+                }
             }
         }
     }

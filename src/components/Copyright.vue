@@ -57,6 +57,10 @@ $background-color-copyright: #f1efef;
             color: #fff;
             padding: 7px 16px;
         }
+
+        &:hover {
+            background-color: #262626;
+        }
     }
 }
 

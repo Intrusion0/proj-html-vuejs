@@ -89,6 +89,11 @@ section#container-our-specialties {
                 text-decoration: none;
                 padding: 10px 25px;
                 border: 2px solid $main-color;
+
+                &:hover {
+                    border: 3px solid $main-color;
+                    font-weight: 500;
+                }
             }
         }
     }

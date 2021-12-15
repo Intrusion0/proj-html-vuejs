@@ -172,7 +172,12 @@ section#container-meet-our-doctors {
             a {
                 background-color: #3c5998;
                 padding: 10px 14px;
+
+                &:hover {
+                    background-color: #2b4170;
+                }
             }
+            
         }
 
         // Icona di Twitter
@@ -180,6 +185,10 @@ section#container-meet-our-doctors {
 
             a {
                 background-color: #54acee;
+
+                &:hover {
+                    background-color: #438dc5;
+                }
             }
         }
 
@@ -188,6 +197,10 @@ section#container-meet-our-doctors {
 
             a {
                 background-color: #3f729b;
+
+                &:hover {
+                    background-color: #2e5574;
+                }
             }
         }
         

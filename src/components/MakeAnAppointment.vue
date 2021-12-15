@@ -82,6 +82,12 @@ section#container-make-an-appointment {
             padding: 12px 0;
             font-size: 18px;
             margin-top: 10px;
+
+            &:hover {
+                background-color: #48dceb;
+                text-shadow: 1px 1px 2px #000;
+                box-shadow: 2px 2px 2px $main-color;
+            }
         }
     }
 
@@ -106,11 +112,9 @@ div.container-form {
     font-size: 14px;
     margin: 18px 0;
 
-    &.focus {
-        background-color: transparent;
-        color: $secondary-color;
-        border-color: $secondary-color;
-        box-shadow: none;
+    &:focus, &.focus {
+        border-color: $main-color;
+        box-shadow: 1px 1px 2px 1px $main-color;
     }
 
     &::placeholder {

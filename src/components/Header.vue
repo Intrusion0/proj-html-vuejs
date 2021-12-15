@@ -86,6 +86,17 @@ header {
                     a {
                         text-decoration: none;
                         color: $text-color;
+
+                        &:hover {
+                            color: $secondary-color-header;
+                        }
+                    }
+
+                    &:first-child {
+
+                        a {
+                            color: $secondary-color-header;
+                        }
                     }
 
                     &:last-child {
@@ -94,12 +105,15 @@ header {
                         text-decoration: none;
                         color: $text-color;
                         border-radius: 2px;
-                    }
 
-                    &:first-child {
+                        &:hover {
+                            background-color: #48dceb;
+                            text-shadow: 1px 1px 2px #000;
+                            box-shadow: 2px 2px 2px #fff;
+                        }
 
-                        a {
-                            color: $secondary-color-header;
+                        &:hover a {
+                            color: #fff;
                         }
                     }
                 }
@@ -135,6 +149,12 @@ header {
 
         a {
             padding: 15px 40px;
+
+            &:hover {
+                background-color: #48dceb;
+                text-shadow: 1px 1px 2px #000;
+                box-shadow: 2px 2px 2px #fff;
+            }
         }
     }
 }
