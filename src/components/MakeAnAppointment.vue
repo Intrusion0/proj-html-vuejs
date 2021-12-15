@@ -1,4 +1,3 @@
-// MakeAnAppointment
 <template>
     <section id="container-make-an-appointment">
         <div class="ms-container">
@@ -49,9 +48,8 @@ section#container-make-an-appointment {
     text-align: center;
     background-image: url('../assets/img/make-an-appointment.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
-    background-position-x: -30px;
     padding: 100px 0;
 
     h2 {
@@ -99,7 +97,7 @@ div.container-form {
 
 #datepicker-placeholder__outer_.form-control, #ms-input-form, #ms-textarea {
     width: 47%;
-    height: 60px;
+    height: 50px;
     background-color: transparent;
     text-align: left;
     border: 1px solid $secondary-color;

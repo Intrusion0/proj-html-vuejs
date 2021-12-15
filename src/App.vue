@@ -153,4 +153,14 @@ export default {
   color: #c9c9c9 !important;
 }
 
+// Carousel Syle
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+
 </style>

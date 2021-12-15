@@ -85,7 +85,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 80px;
 
     // Container About Us
     .container-about-us {
@@ -117,6 +117,7 @@ footer {
             ul {
                 display: flex;
                 list-style: none;
+                padding-left: 0;
 
                 li {
                     margin-right: 15px;
@@ -167,6 +168,7 @@ footer {
 
         ul {
             list-style: none;
+            padding-left: 0;
 
             li {
                 display: flex;
@@ -192,6 +194,7 @@ footer {
 
         ul {
             list-style: none;
+            padding-left: 0;
 
             li {
                 margin: 20px 0;

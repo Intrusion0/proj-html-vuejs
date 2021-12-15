@@ -10,8 +10,10 @@
         <TourOurFacilities />
         <!-- Componente Our-Specialties -->
         <OurSpecialties />
-        <!-- Componente MakeAnAppointment -->
+        <!-- Componente Make-An-Appointment -->
         <MakeAnAppointment />
+        <!-- Componente Customer-Logos -->
+        <CustomerLogos />
     </main>
 </template>
 
@@ -22,6 +24,7 @@ import HealthServices from './HealthServices.vue';
 import TourOurFacilities from './TourOurFacilities.vue';
 import OurSpecialties from './OurSpecialties.vue'
 import MakeAnAppointment from './MakeAnAppointment.vue'
+import CustomerLogos from './CustomerLogos.vue'
 
 export default {
     name: "Main",
@@ -31,7 +34,8 @@ export default {
         HealthServices,
         TourOurFacilities,
         OurSpecialties,
-        MakeAnAppointment
+        MakeAnAppointment,
+        CustomerLogos
     }
 };
 </script>
