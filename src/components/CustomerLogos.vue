@@ -2,7 +2,7 @@
     <section id="container-customer-logos">
         <div class="ms-container">
             <VueSlickCarousel v-bind="settings" class="carousel">
-                <div v-for="logo, i in logosDetails" class="test" :key="'I' + i">
+                <div v-for="logo, i in logosDetails" class="container-logos" :key="'I' + i">
                     <img :src="require(`@/assets/img/${logo.image}`)" :alt="logo.name">
                 </div>
             </VueSlickCarousel>
@@ -54,8 +54,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$main-color: #fff;
-$secondary-color: #c9c9c9;
 
 // section Customer-Logos
 section#container-customer-logos { 
@@ -65,8 +63,12 @@ section#container-customer-logos {
     overflow: hidden;
     padding: 40px 0;
 
-    .test {
+    .container-logos {
         margin: 0 15px;
+    }
+
+    .carousel {
+        overflow: hidden;
     }
 
 }
